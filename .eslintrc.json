@@ -23,15 +23,9 @@
         "react/jsx-uses-vars": "error",
         "indent": 0,
         "no-console": 0,
-        "linebreak-style": [
-            "error",
-            "windows"
-        ],
+        "linebreak-style": 0,
         "quotes": 0,
-        "semi": [
-            "error",
-            "always"
-        ]
+        "semi": 0
     },
     "settings": {
     "react": {
