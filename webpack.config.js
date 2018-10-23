@@ -4,7 +4,7 @@ const ExtractTextPlugin = require('extract-text-webpack-plugin');
 
 module.exports = {
   devtool: 'inline-source-map',
-  entry: path.resolve(__dirname, 'src') + '/app/index.js',
+  entry: path.resolve(__dirname, 'src') + '/client/app/index.js',
   output: {
     path: path.resolve(__dirname, 'dist') + '/bundled',
     filename: 'bundle.js',
@@ -52,7 +52,7 @@ module.exports = {
     new HtmlWebpackPlugin({
       title: 'Train Composition Viewer',
       hash: true,
-      template: './src/index.ejs'
+      template: './src/client/index.ejs'
       /*minify: {
           collapseWhitespace: true
       }*/

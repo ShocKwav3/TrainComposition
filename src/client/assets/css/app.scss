@@ -1,0 +1,85 @@
+.begin {
+    color: darkred;
+}
+
+.paper_class {
+    padding: 15px;
+}
+
+.card_header_left {
+    float: left;
+}
+
+.card_header_right {
+    float: right;
+}
+
+.padding_5_10 {
+    padding: 5px 10px;
+}
+
+.padding_0_10 {
+    padding: 0px 10px;
+}
+
+.margin_10_0 {
+    margin: 10px 0px !important;
+}
+
+.top_bar {
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+    box-sizing: border-box !important;
+}
+
+.main {
+    margin-top: 100px;
+}
+
+.width_100 {
+    width: 100% !important;
+}
+
+body {
+    background-image: url('http://bonbytes.eu/fin/fin_vr_sr1nr3088_sr1nr3084_oretrain_2_174_kokkola_2013_L.jpg') !important;
+    background-size: cover !important;
+    //background-position: center top;
+    background-repeat: no-repeat !important;
+    background-attachment: fixed !important;
+}
+
+#main {
+    background: none;
+}
+
+.main {
+    @media screen and (max-width: 760px) {
+        margin-top: 200px;
+    }
+}
+
+.textfield_s_search {
+    @media screen and (max-width: 760px) {
+        width: 100% !important;
+    }
+}
+
+.button_s_search {
+    margin-left: 20px;
+    @media screen and (max-width: 760px) {
+        width: 100% !important;
+        margin-left: 0px;
+    }
+}
+
+.top_bar_inner {
+    padding: 0px 200px !important;
+    @media screen and (max-width: 1200px) {
+        padding: 0px 20px !important;
+    }
+}
+
+.current_station {
+    float: right;
+}
