@@ -5,6 +5,7 @@ Overview about the project in the [pdf file](https://github.com/ShocKwav3/TrainC
 
 Technology and Resources used for development:
 - ReactJS
+- Redux
 - Webpack
 - Material UI
 - Semantic UI
