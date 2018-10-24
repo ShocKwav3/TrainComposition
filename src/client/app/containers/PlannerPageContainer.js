@@ -6,14 +6,14 @@ import { constructArrayOfSelectedValues } from '../utils/'
 
 const mapStateToProps = (state) => {
   const stations = state.trainStations
-  const stationShortCodes = constructArrayOfSelectedValues(state.trainStations, 'stationName')
+  const allStationNames = constructArrayOfSelectedValues(state.trainStations, 'stationName')
   const selectedStationTrains = state.selectedStation
   const spinner = state.spinner
 
   return {
     spinner,
     stations,
-    stationShortCodes,
+    allStationNames,
     fromStation: state.plannerFrom,
     trainData: selectedStationTrains,
   }

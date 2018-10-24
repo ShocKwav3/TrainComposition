@@ -1,4 +1,5 @@
 import _ from 'lodash'
+import moment from 'moment'
 
 
 export const constructIndexedData = (data, indexBy='id', toInclude=['name']) => (
@@ -14,3 +15,7 @@ export const constructArrayOfSelectedValues = (objectSource, toPick='name') => {
 
   return result
 }
+
+export const getTime = (source, condition, targetParameter, format) => (
+  moment(_.result(_.find(source, condition), targetParameter), format).toDate()
+)

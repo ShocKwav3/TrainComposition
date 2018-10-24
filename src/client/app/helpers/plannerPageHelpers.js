@@ -35,3 +35,12 @@ export const prepareTrainsDataForView = (item, stationToShow) => {
     scheduledTime,
   }
 }
+
+export const filterResult = (trainData, fromSearch, toSearch) => (
+  trainData.filter((item) => {
+    let fromTime = _.result(_.find(item.train.timeTableRows, {'stationShortCode': fromSearch, 'type': 'DEPARTURE' }), 'scheduledTime');
+    let toTime = _.result(_.find(item.train.timeTableRows, {'stationShortCode': toSearch }), 'scheduledTime');
+    
+    return fromTime < toTime
+  })
+)
