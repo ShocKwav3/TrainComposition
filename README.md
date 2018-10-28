@@ -19,6 +19,6 @@ Technology and Resources used for development:
 
 RoadMap:
 - [x] Redux
-- [ ] CI
-- [ ] FireBase?
+- [ ] CI (CircleCI)
+- [ ] RT Databases (FireBase)?
 - [ ] Dependancy library updates
