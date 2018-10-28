@@ -16,3 +16,8 @@ Technology and Resources used for development:
 - Moment
 - Babel
 - ESlint
+
+RoadMap:
+- [x] Redux
+- [ ] CI
+- [ ] FireBase?
