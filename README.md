@@ -21,3 +21,4 @@ RoadMap:
 - [x] Redux
 - [ ] CI
 - [ ] FireBase?
+- [ ] Dependancy library updates
